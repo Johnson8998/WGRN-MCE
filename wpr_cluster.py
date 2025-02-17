@@ -4,14 +4,14 @@ import networkx as nx
 from sklearn.cluster import KMeans
 
 # Folder path
-folder_path = 'D:\\hqcidea1\\network\\MCE1_LUSC_tumor'
+folder_path = '...'
 
 # Output file paths
 all_genes_output_file = 'MCE1_LUSC_tumor_clustering_results(all).csv'
 driver_genes_output_file = 'MCE1_LUSC_tumor_clustering_results(driver).csv'
 
 # Read the driver gene file
-driver_genes_df = pd.read_csv('D:\\hqcidea1\\Census_LUNG.csv')
+driver_genes_df = pd.read_csv('Census_LUNG.csv')
 driver_genes = driver_genes_df['Gene Symbol'].values
 
 # Initialize dictionaries to save the results for all genes and driver genes
