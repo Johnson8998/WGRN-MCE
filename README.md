@@ -1,4 +1,8 @@
-# Weighted Gene Networks Derived from Multi-Omics Reveal Core Cancer Genes in Lung Cancer
+This is the code associated with the article “Weighted Gene Networks Derived from Multi-Omics Reveal Core Cancer Genes in Lung Cancer”.
+
+## Data Sources
+The BioGrid data can be found at https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.226/. TCGA-LUAD and TCGA-LUSC can be found at The Cancer Genome Atlas (TCGA) Research Network: http://cancergenome.nih.gov.
+
 
 This repository contains the code associated with the article “Weighted Gene Networks Derived from Multi-Omics Reveal Core Cancer Genes in Lung Cancer”.
 
