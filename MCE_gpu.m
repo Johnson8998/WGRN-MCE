@@ -1,5 +1,5 @@
 
-function [ge, p_max] = Code_5_1_MCE_gpu(data_matrix, net_matrix)
+function [ge, p_max] = MCE_gpu(data_matrix, net_matrix)
 %Input: 
 % data: gene expression dataset, p*n where p is the number of genes and n 
 %   is the number of samples.
