@@ -17,8 +17,8 @@ This repository contains the code associated with the article “Weighted Gene N
   - `ge`: A vector of length `n`, where `ge(i)` is the Markov chain entropy (MCE) of sample `i`.
 - **Note**: In the code, `p_ij` represents the transfer probability.
 
-### 2. `MFE`
-- **Function**: Calculating Flow chain entropy.
+### 2. `MFE.py`
+- **Function**: Calculating Flow entropy. There are examples in the code.
 
 ### 3. `wpr_cluster.py`
 - **Function**: Calculate weighted PageRank centrality and perform K-means clustering.
